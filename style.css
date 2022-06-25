@@ -1,11 +1,184 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #1f2937;
+}
+nav .container {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand a {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navlist {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 20px;
+}
 
 header {
   background-color: #1f2937;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  gap: 100px;
+}
+
+.hero .content {
+  flex-grow: 2;
+}
+.hero .content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.hero .content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #e5e7eb;
+}
+.hero .content button {
+  background: #3882f6;
+  border: none;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.hero img {
+  flex-grow: 1;
+  width: 700px;
+}
+main .container {
+  padding: 3rem 0;
+}
+main h1 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  color: #1f2937;
+}
+main .subcontent {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+main .card {
+  width: 250px;
+  text-align: center;
+  font-size: 24px;
+}
+main .box {
+  height: 250px;
+  width: 250px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+main p {
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 6rem 0;
+}
+
+.quote h3 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1;
+  line-height: 1.5;
+}
+
+.quote .author {
+  text-align: right;
+  font-weight: 900;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.action {
+  background-color: #f9faf8;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.action .container {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100%;
+  height: 200px;
+  padding: 0 10rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action .container h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 2;
+}
+.action .container p {
+  font-size: 20px;
+}
+.action .container button {
+  background: none;
+  border: 2px solid #f9faf8;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  /* margin-top: 10px; */
+}
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 18px;
 }
