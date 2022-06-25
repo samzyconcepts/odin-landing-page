@@ -1,36 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav>
+      <section class="container">
+        <div class="brand"><a href="index.html">Header Logo</a></div>
+
+        <ul class="navlist">
+          <li class="navitem"><a href="#" class="navlink">About</a></li>
+          <li class="navitem"><a href="#" class="navlink">Service</a></li>
+          <li class="navitem"><a href="#" class="navlink">Contact</a></li>
+        </ul>
+      </section>
+    </nav>
     <!-- hero section -->
     <header>
-        <!-- navigation bar -->
-        <nav class="container">
-            <div class="brand"><a href="index.html">Header Logo</a></div>
+      <!-- hero section begin -->
+      <section class="hero container">
+        <div class="content">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
 
-            <ul class="navlist">
-                <li class="navitem"><a href="#" class="navlink">About</a></li>
-                <li class="navitem"><a href="#" class="navlink">Service</a></li>
-                <li class="navitem"><a href="#" class="navlink">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- hero section begin -->
-        <section class="hero container">
-            <div>
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+        <img
+          src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt="coding from pexels"
+        />
+      </section>
+      <!-- hero section end -->
+    </header>
+
+    <main>
+      <section class="container">
+        <h1>Some random information</h1>
+        <div class="subcontent">
+          <div class="card">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="card">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="card">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="card">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="quote">
+        <div class="container">
+            <h3>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h3>
+
+            <p class="author">-Thor, God of Thunder</p>
+        </div>
+    </section>
+
+    <section class="action">
+        <div class="container">
+            <div class="content">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
             </div>
 
-            <img src="" alt="">
-        </section>
-        <!-- hero section end -->
-    </header>
-</body>
+            <button>Sign up</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; The Odin Project 2021</p>
+    </footer>
+  </body>
 </html>
